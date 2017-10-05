@@ -13,10 +13,7 @@ elif [[ $1 = "-r" ]];then
 	else
 		directory = $2
 	if [[ -d $directory ]]; then
-		echo "Es directorio"
 		#es un directorio, hacer cosas de directorio
-		for i in *.csv; do
-			cat "$i" | awk -F "|" '{print $2}' >> nuevo.txt 
 	else
 		echo "no existe el directorio $2"
 		exit 2
@@ -30,15 +27,7 @@ elif [[ -f $1 ]]; then
 		echo "Archivo $2 Vacio"
 		exit 4
 	fi
-	echo -e "Es un Archivo"
 	#es un archivo, haces cosas de archivo
-	awk -F; 'BEGIN{ i=0
-declare -a arr=("Lunes""Martes""Miercoles""Jueves""Viernes""Sabado""Domingo")}{
-		while ($2 != ${arr[{!i}]} )
-			{i++}
-		while($2 != 
-		
-		}' $1 , $2
 fi
 
 #if [$# -gt 0 ];then
