@@ -8,8 +8,8 @@ if [[ $# -lt 2 ]]; then
 	exit 1
 elif [[ $1 = "-r" ]];then
 	if [[$0 -gt 2]];then
-	directory="$*"
-	sed '1,3 d' directory > directory
+	dirini="$*"
+	directory="$(echo -e "{dirini}" | sed -e 's/^-r*//' | tr -d '[:space:]')"
 	else
 		directory = $2
 	if [[ -d $directory ]]; then
