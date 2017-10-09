@@ -1,0 +1,17 @@
+cuentaejemplosisop@gmail.com|smtp.gmail.com|powershell|587
+0000|0300
+cuentaejemplosisop@gmail.com
+0300|0600
+cuentaejemplosisop@gmail.com
+0600|0900
+cuentaejemplosisop@gmail.com
+0900|1200
+cuentaejemplosisop@gmail.com
+1200|1500
+cuentaejemplosisop@gmail.com
+1500|1800
+cuentaejemplosisop@gmail.com
+1800|2100
+cuentaejemplosisop@gmail.com
+2100|0000
+cuentaejemplosisop@gmail.com
